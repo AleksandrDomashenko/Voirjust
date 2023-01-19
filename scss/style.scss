@@ -28,6 +28,62 @@
 }
 //HEADER
 .header {
+  background-color: #605957;
+  &__top {
+    background-color: white;
+    font-family: 'Roboto';
+    @include font(12px, 14px, 0.6px, #1A1818, 400);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 0;
+  }
+  &__list {
+    @include flex(flex, row, space-between, center);
+    font-family: 'Roboto';
+    @include font(12px, 14px, 0.6px, #1A1818, 400);
+    text-transform: uppercase;
+    margin-top: 20px;
+    a {
+      color: #1A1818;
+      
+    }
+  }
+  &__list-left {
+    margin-left: 161px;
+    a {
+      &:not(:last-child) {
+        margin-right: 18px;
+      }
+    }
+    
+  }
+  &__list-right {
+    margin-right: 161px;
+    a {
+      &:not(:last-child) {
+        margin-right: 18px;
+      }
+    }
+  }
+  &__logo-name {
+    text-align: center;
+    p {
+      font-family: 'Roboto';
+      @include font(54px, 61px, none, white, 400);
+      margin-top: 297px;
+      margin-bottom: 40px;
+    }
+  }
+  &__link {
+    padding-bottom: 340px;
+    a {
+      padding: 13px 21px;
+      border-radius: 30px;
+      background-color: #A05B4E;
+      @include font(12px, 14px, 0.6px, white, 400);
+      text-transform: uppercase;
+    }
+  }
 }
 
 // first frame

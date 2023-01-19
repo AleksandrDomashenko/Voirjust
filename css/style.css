@@ -92,3 +92,75 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   min-width: 100vw;
 }
+
+.header {
+  background-color: #605957;
+}
+.header__top {
+  background-color: white;
+  font-family: "Roboto";
+  font-size: clamp(7px, 1.5vw, 34px);
+  line-height: clamp(-1px, 2vw, 36px);
+  letter-spacing: 0.6px;
+  color: #1A1818;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px 0;
+}
+.header__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto";
+  font-size: clamp(7px, 1.5vw, 34px);
+  line-height: clamp(-1px, 2vw, 36px);
+  letter-spacing: 0.6px;
+  color: #1A1818;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.header__list a {
+  color: #1A1818;
+}
+.header__list-left {
+  margin-left: 161px;
+}
+.header__list-left a:not(:last-child) {
+  margin-right: 18px;
+}
+.header__list-right {
+  margin-right: 161px;
+}
+.header__list-right a:not(:last-child) {
+  margin-right: 18px;
+}
+.header__logo-name {
+  text-align: center;
+}
+.header__logo-name p {
+  font-family: "Roboto";
+  font-size: clamp(49px, 1.5vw, 76px);
+  line-height: clamp(46px, 2vw, 83px);
+  letter-spacing: none;
+  color: white;
+  font-weight: 400;
+  margin-top: 297px;
+  margin-bottom: 40px;
+}
+.header__link {
+  padding-bottom: 340px;
+}
+.header__link a {
+  padding: 13px 21px;
+  border-radius: 30px;
+  background-color: #A05B4E;
+  font-size: clamp(7px, 1.5vw, 34px);
+  line-height: clamp(-1px, 2vw, 36px);
+  letter-spacing: 0.6px;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
