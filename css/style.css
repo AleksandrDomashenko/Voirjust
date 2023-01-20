@@ -173,29 +173,23 @@ h1, h2, h3, h4, h5, h6 {
   margin: 51px 0 63px 30px;
 }
 
-.second-frame__row {
+.second-frame__columns {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: none;
-}
-.second-frame__columns {
-  display: flex;
-  flex-direction: column;
-  justify-content: none;
-  align-items: none;
   margin: 0 30px;
 }
 .second-frame__left-column {
-  position: absolute;
+  position: relative;
 }
 .second-frame__left-column img {
   width: 555px;
   height: 686px;
 }
-.second-frame__left-column img:nth-child(2), .second-frame__left-column img :nth-child(3) {
+.second-frame__left-column img:nth-child(2) {
   position: absolute;
-  z-index: 5;
+  z-index: 0;
   width: 17px;
   height: 17px;
   top: 20px;
@@ -223,4 +217,76 @@ h1, h2, h3, h4, h5, h6 {
 }
 .second-frame__botoom-name p:nth-child(2) {
   margin-left: 400px;
+}
+.second-frame__right-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+}
+.second-frame__right-column-row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+}
+.second-frame__right-column-row img {
+  width: 263px;
+  height: 328px;
+}
+.second-frame__cards:nth-child(1) a {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.6px;
+  color: #1A1818;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 2px solid #1A1818;
+  border-radius: 40px;
+  padding: 5px 10px;
+  position: relative;
+  top: -330px;
+  left: 20px;
+}
+.second-frame__cards:nth-child(1) img:nth-child(2) {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 20px;
+  left: 227px;
+}
+.second-frame__cards:nth-child(2) img:nth-child(2) {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 20px;
+  left: 473px;
+}
+.second-frame__cards:nth-child(2) img:nth-child(3) {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 20px;
+  left: 496px;
+}
+.second-frame__cards:nth-child(2) img:nth-child(4) {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 20px;
+  left: 519px;
+}
+.second-frame__cards:not(:last-child) {
+  margin-right: 30px;
+}
+.second-frame__cards p:nth-child(2) {
+  margin-left: 68px;
+}
+.second-frame__botoom-name {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: none;
+  color: #1A1818;
+  font-weight: 400;
 }
