@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -98,7 +99,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__top {
   background-color: white;
-  font-family: "Roboto";
   font-size: clamp(7px, 1.5vw, 34px);
   line-height: clamp(-1px, 2vw, 36px);
   letter-spacing: 0.6px;
@@ -113,7 +113,6 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: "Roboto";
   font-size: clamp(7px, 1.5vw, 34px);
   line-height: clamp(-1px, 2vw, 36px);
   letter-spacing: 0.6px;
@@ -141,7 +140,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .header__logo-name p {
-  font-family: "Roboto";
   font-size: clamp(49px, 1.5vw, 76px);
   line-height: clamp(46px, 2vw, 83px);
   letter-spacing: none;
@@ -163,4 +161,66 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.first-frame__text {
+  font-size: clamp(39px, 1.5vw, 66px);
+  line-height: clamp(35px, 2vw, 72px);
+  letter-spacing: none;
+  color: #1A1818;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 51px 0 63px 30px;
+}
+
+.second-frame__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+}
+.second-frame__columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+  margin: 0 30px;
+}
+.second-frame__left-column {
+  position: absolute;
+}
+.second-frame__left-column img {
+  width: 555px;
+  height: 686px;
+}
+.second-frame__left-column img:nth-child(2), .second-frame__left-column img :nth-child(3) {
+  position: absolute;
+  z-index: 5;
+  width: 17px;
+  height: 17px;
+  top: 20px;
+  left: 496px;
+}
+.second-frame__left-column img:nth-child(3) {
+  position: absolute;
+  z-index: 5;
+  width: 17px;
+  height: 17px;
+  top: 20px;
+  left: 519px;
+}
+.second-frame__botoom-name {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: none;
+  color: #1A1818;
+  font-weight: 400;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: none;
+}
+.second-frame__botoom-name p:nth-child(2) {
+  margin-left: 400px;
 }

@@ -1,5 +1,6 @@
 //подключение шрифтов
-// @import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 
 // @font-face {
 //   font-family: "Palatino";
@@ -31,7 +32,6 @@
   background-color: #605957;
   &__top {
     background-color: white;
-    font-family: 'Roboto';
     @include font(12px, 14px, 0.6px, #1A1818, 400);
     text-align: center;
     text-transform: uppercase;
@@ -39,7 +39,6 @@
   }
   &__list {
     @include flex(flex, row, space-between, center);
-    font-family: 'Roboto';
     @include font(12px, 14px, 0.6px, #1A1818, 400);
     text-transform: uppercase;
     margin-top: 20px;
@@ -68,7 +67,6 @@
   &__logo-name {
     text-align: center;
     p {
-      font-family: 'Roboto';
       @include font(54px, 61px, none, white, 400);
       margin-top: 297px;
       margin-bottom: 40px;
@@ -88,10 +86,55 @@
 
 // first frame
 .first-frame {
+  &__text {
+    @include font(44px, 50px, none, #1A1818, 400);
+    text-transform: uppercase;
+    margin: 51px 0 63px 30px;
+  }
 }
 
 // second frame
 .second-frame {
+  &__row {
+    @include flex(flex, row, space-between, none);
+  }
+  &__columns {
+    @include flex(flex, column, none, none);
+    margin: 0 30px;
+  }
+  &__left-column {
+    position: absolute;
+    img {
+      width: 555px;
+      height: 686px;
+      &:nth-child(2),:nth-child(3) {
+        position: absolute;
+        z-index: 5;
+        width: 17px;
+        height: 17px;
+        top: 20px;
+        left: 496px;
+      }
+      &:nth-child(3) {
+        position: absolute;
+        z-index: 5;
+        width: 17px;
+        height: 17px;
+        top: 20px;
+        left: 519px;
+      }
+    }
+  }
+  &__card {
+  }
+  &__botoom-name {
+    @include font_little(16px, 19px, none, #1A1818, 400);
+    margin-top: 6px;
+    @include flex(flex, none, none, none);
+    p:nth-child(2) {
+      margin-left: 400px;
+    }
+  }
 }
 
 // three frame
