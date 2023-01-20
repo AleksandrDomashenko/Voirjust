@@ -132,7 +132,7 @@
   }
   
   &__right-column {
-    @include flex(flex, row, none, none);
+    @include flex(flex, column, none, none);
   }
   &__right-column-row {
     position: relative;

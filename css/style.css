@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .second-frame__right-column {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: none;
   align-items: none;
 }
