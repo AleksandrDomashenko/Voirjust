@@ -393,11 +393,84 @@
 
 // three frame
 .threeth-frame {
+  padding-top: 100px;
+  &__row {
+    @include flex(flex, row, flex-end, center);
+  }
+  &__column {
+    text-align: left;
+    margin: 0 auto;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    @include font(54px, 61px, none, #1A1818, 400);
+  }
+  &__text {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    @include font(24px, 29px, none, #1A1818, 400);
+  }
+  &__button {
+    margin-top: 30px;
+    background-color: #A05B4E;
+    border-radius: 30px;
+    text-align: center;
+    padding: 13px 21px;
+    width: 170px;
+    a {
+      color: #fff;
+    }
+  }
+  &__img {
+    margin-right: 30px;
+    img {
+      width: 555px;
+      height: 694px;
+    }
+  }
 }
 
 // four frame
 .fourth-frame {
+  padding-top: 100px;
+  &__row {
+    @include flex(flex, row, flex-start, center);
+    margin-left: 30px;
+  }
+  &__img {
+    img {
+      width: 555px;
+      height: 694px;
+    }
+  }
+  &__column {
+    margin-left: 30px;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    @include font(54px, 61px, none, #1A1818, 400);
+  }
+  &__text {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    @include font(24px, 29px, none, #1A1818, 400);
+
+  }
+  &__button {
+    margin-top: 30px;
+    background-color: #A05B4E;
+    border-radius: 30px;
+    text-align: center;
+    padding: 13px 21px;
+    width: 170px;
+    a {
+      color: #fff;
+    }
+  }
 }
+
 
 // five frame
 .fiveth-frame {
