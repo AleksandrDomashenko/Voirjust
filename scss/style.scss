@@ -142,7 +142,7 @@
       height: 328px;
     }
   }
-  &__cards {
+  &__cards-one-row {
     &:nth-child(1) {
       a {
         @include font_little(12px, 14px, 0.6px, #1A1818, 400);
@@ -160,6 +160,7 @@
         height: 17px;
         top: 20px;
         left: 227px;
+        border: 1px solid #fff;
       }
     }
     &:nth-child(2) {
@@ -170,13 +171,15 @@
           height: 17px;
           top: 20px;
           left: 473px;
+          border: 1px solid #fff;
         }
         &:nth-child(3) {
           position: absolute;
           width: 17px;
           height: 17px;
           top: 20px;
-          left: 496px
+          left: 496px;
+          border: 1px solid #fff;
         }
         &:nth-child(4) {
           position: absolute;
@@ -184,6 +187,195 @@
           height: 17px;
           top: 20px;
           left: 519px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    p:nth-child(2) {
+      margin-left: 68px;
+    }
+  }
+  &__cards-two-row {
+    &:nth-child(1) {
+      img {
+        &:nth-child(2) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 204px;
+          border: 1px solid #fff;
+        }
+        &:nth-child(3) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 227px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+    &:nth-child(2) { 
+      a {
+        @include font_little(12px, 14px, 0.6px, #1A1818, 400);
+        text-transform: uppercase;
+        border: 2px solid #1A1818;
+        border-radius: 40px;
+        padding: 5px 10px;
+        position: relative;
+        top: -330px;
+        left: 20px;
+      }
+      img {
+        &:nth-child(2) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 519px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    p:nth-child(2) {
+      margin-left: 68px;
+    }
+  }
+  &__cards-three-row {
+    &:nth-child(1) {
+      img {
+        &:nth-child(2) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 181px;
+          border: 1px solid #fff;
+        }
+        &:nth-child(3) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 204px;
+          border: 1px solid #fff;
+        }
+        &:nth-child(4) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 227px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+    &:nth-child(2) {
+      img {
+        &:nth-child(2) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 496px;
+          border: 1px solid #fff;
+        }
+        &:nth-child(3) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 519px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    p:nth-child(2) {
+      margin-left: 68px;
+    }
+  }
+  &__cards-fourth-row {
+    &:nth-child(1) {
+      img {
+        &:nth-child(2) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 181px;
+          border: 1px solid #fff;
+        }
+        &:nth-child(3) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 204px;
+          border: 1px solid #fff;
+        }
+        &:nth-child(4) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 227px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+    &:nth-child(2) {
+      a {
+        @include font_little(12px, 14px, 0.6px, #1A1818, 400);
+        text-transform: uppercase;
+        border: 2px solid #1A1818;
+        border-radius: 40px;
+        padding: 5px 10px;
+        position: relative;
+        top: -330px;
+        left: 20px;
+      }
+      img {
+        &:nth-child(2) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 450px;
+          border: 1px solid #fff;
+        }
+        &:nth-child(3) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 473px;
+          border: 1px solid #fff;
+        }
+        &:nth-child(4) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 496px;
+          border: 1px solid #fff;
+        }
+        &:nth-child(5) {
+          position: absolute;
+          width: 17px;
+          height: 17px;
+          top: 20px;
+          left: 519px;
+          border: 1px solid #fff;
         }
       }
     }
