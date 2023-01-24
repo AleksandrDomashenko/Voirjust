@@ -474,10 +474,74 @@
 
 // five frame
 .fiveth-frame {
+  padding-top: 100px;
+	&__row {
+    @include flex(flex, row, flex-end, center);
+  }
+	&__column {
+    margin: 0 auto;
+	}
+	&__title {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    @include font(54px, 61px, none, #1A1818, 400);
+	}
+	&__text {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    @include font(24px, 29px, none, #1A1818, 400);
+	}
+	&__button {
+    margin-top: 30px;
+    background-color: #A05B4E;
+    border-radius: 30px;
+    text-align: center;
+    padding: 13px 21px;
+    width: 170px;
+    a {
+      color: #fff;
+    }
+	}
+	&__img {
+    img {
+      width: 555px;
+      height: 694px;
+    }
+	}
 }
-
 // six frame
 .sixth-frame {
+  margin-top: 100px;
+  background: url("/img/sixth-frame/1.png") center/cover no-repeat;
+  &__column {
+    padding: 40px 0 516px 30px;
+    // width: 100vw;
+    height: 1600px;
+    
+  }
+  &__title {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    @include font(49px, 54px, 1.08px, #FFF, 400);
+  }
+  &__text {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    @include font(24px, 29px, none, #FFF, 400);
+  }
+  &__button {
+    margin-top: 30px;
+    background-color: #A05B4E;
+    border-radius: 30px;
+    width: 185px;
+    text-align: center;
+    padding: 13px 21px;
+    a {
+      font-family: 'Roboto';
+      text-transform: uppercase;
+      @include font_little(12px, 14px, 0.6px, #fff, 400);
+    }
+  }
 }
 
 // seven-frame
