@@ -26,6 +26,7 @@
 }
 .container {
   min-width: 100vw;
+  font-family: 'Roboto';
 }
 //HEADER
 .header {
@@ -101,24 +102,22 @@
   }
   &__left-column {
     position: relative;
+    margin-right: 30px;
     img {
-      width: 555px;
-      height: 686px;
+      width: 100%;
       &:nth-child(2) {
         position: absolute;
-        z-index: 0;
         width: 17px;
         height: 17px;
-        top: 20px;
-        left: 496px;
+        top: 1.25%;
+        left: 90%;
       }
       &:nth-child(3) {
         position: absolute;
-        z-index: 5;
         width: 17px;
         height: 17px;
-        top: 20px;
-        left: 519px;
+        top: 1.25%;
+        left: 94%;
       }
     }
   }
@@ -138,8 +137,7 @@
     position: relative;
     @include flex(flex, row, none, none);
     img {
-      width: 263px;
-      height: 328px;
+      width: 100%;
     }
   }
   &__cards-one-row {
@@ -151,15 +149,15 @@
         border-radius: 40px;
         padding: 5px 10px;
         position: relative;
-        top: -330px;
-        left: 20px;
+        top: -92%;
+        left: 5%;
       }
       img:nth-child(2) {
         position: absolute;
         width: 17px;
         height: 17px;
-        top: 20px;
-        left: 227px;
+        top: 5%;
+        left: 42%;
         border: 1px solid #fff;
       }
     }
@@ -169,24 +167,24 @@
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 473px;
+          top: 5%;
+          left: 86%;
           border: 1px solid #fff;
         }
         &:nth-child(3) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 496px;
+          top: 5%;
+          left: 90%;
           border: 1px solid #fff;
         }
         &:nth-child(4) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 519px;
+          top: 5%;
+          left: 94%;
           border: 1px solid #fff;
         }
       }
@@ -205,16 +203,16 @@
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 204px;
+          top: 5%;
+          left: 38%;
           border: 1px solid #fff;
         }
         &:nth-child(3) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 227px;
+          top: 5%;
+          left: 42%;
           border: 1px solid #fff;
         }
       }
@@ -227,16 +225,16 @@
         border-radius: 40px;
         padding: 5px 10px;
         position: relative;
-        top: -330px;
-        left: 20px;
+        top: -92%;
+        left: 5%;
       }
       img {
         &:nth-child(2) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 519px;
+          top: 5%;
+          left: 94%;
           border: 1px solid #fff;
         }
       }
@@ -255,24 +253,24 @@
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 181px;
+          top: 5%;
+          left: 34%;
           border: 1px solid #fff;
         }
         &:nth-child(3) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 204px;
+          top: 5%;
+          left: 38%;
           border: 1px solid #fff;
         }
         &:nth-child(4) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 227px;
+          top: 5%;
+          left: 42%;
           border: 1px solid #fff;
         }
       }
@@ -283,16 +281,16 @@
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 496px;
+          top: 5%;
+          left: 90%;
           border: 1px solid #fff;
         }
         &:nth-child(3) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 519px;
+          top: 5%;
+          left: 94%;
           border: 1px solid #fff;
         }
       }
@@ -305,30 +303,31 @@
     }
   }
   &__cards-fourth-row {
+    margin-top: 14px;
     &:nth-child(1) {
       img {
         &:nth-child(2) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 181px;
+          top: 7%;
+          left: 34%;
           border: 1px solid #fff;
         }
         &:nth-child(3) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 204px;
+          top: 7%;
+          left: 38%;
           border: 1px solid #fff;
         }
         &:nth-child(4) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 227px;
+          top: 7%;
+          left: 42%;
           border: 1px solid #fff;
         }
       }
@@ -341,40 +340,40 @@
         border-radius: 40px;
         padding: 5px 10px;
         position: relative;
-        top: -330px;
-        left: 20px;
+        top: -92%;
+        left: 5%;
       }
       img {
         &:nth-child(2) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 450px;
+          top: 7%;
+          left: 82%;
           border: 1px solid #fff;
         }
         &:nth-child(3) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 473px;
+          top: 7%;
+          left: 86%;
           border: 1px solid #fff;
         }
         &:nth-child(4) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 496px;
+          top: 7%;
+          left: 90%;
           border: 1px solid #fff;
         }
         &:nth-child(5) {
           position: absolute;
           width: 17px;
           height: 17px;
-          top: 20px;
-          left: 519px;
+          top: 7%;
+          left: 94%;
           border: 1px solid #fff;
         }
       }
@@ -403,12 +402,10 @@
   }
   &__title {
     text-transform: uppercase;
-    font-family: 'Roboto';
     @include font(54px, 61px, none, #1A1818, 400);
   }
   &__text {
     margin-top: 15px;
-    font-family: 'Roboto';
     @include font(24px, 29px, none, #1A1818, 400);
   }
   &__button {
@@ -419,14 +416,14 @@
     padding: 13px 21px;
     width: 170px;
     a {
-      color: #fff;
+      text-transform: uppercase;
+      @include font_little(12px, 14px, 0.6px, #fff, 400);
     }
   }
   &__img {
     margin-right: 30px;
     img {
-      width: 555px;
-      height: 694px;
+      width: 47vw;
     }
   }
 }
@@ -440,8 +437,7 @@
   }
   &__img {
     img {
-      width: 555px;
-      height: 694px;
+      width: 48.2vw;
     }
   }
   &__column {
@@ -449,12 +445,10 @@
   }
   &__title {
     text-transform: uppercase;
-    font-family: 'Roboto';
     @include font(54px, 61px, none, #1A1818, 400);
   }
   &__text {
     margin-top: 15px;
-    font-family: 'Roboto';
     @include font(24px, 29px, none, #1A1818, 400);
 
   }
@@ -464,13 +458,13 @@
     border-radius: 30px;
     text-align: center;
     padding: 13px 21px;
-    width: 170px;
+    width: 200px;
     a {
-      color: #fff;
+      text-transform: uppercase;
+      @include font_little(12px, 14px, 0.6px, #fff, 400);
     }
   }
 }
-
 
 // five frame
 .fiveth-frame {
@@ -483,12 +477,10 @@
 	}
 	&__title {
     text-transform: uppercase;
-    font-family: 'Roboto';
     @include font(54px, 61px, none, #1A1818, 400);
 	}
 	&__text {
     margin-top: 15px;
-    font-family: 'Roboto';
     @include font(24px, 29px, none, #1A1818, 400);
 	}
 	&__button {
@@ -497,36 +489,34 @@
     border-radius: 30px;
     text-align: center;
     padding: 13px 21px;
-    width: 170px;
+    width: 200px;
     a {
-      color: #fff;
+      text-transform: uppercase;
+      @include font_little(12px, 14px, 0.6px, #fff, 400);
     }
 	}
 	&__img {
+    margin-right: 30px;
     img {
-      width: 555px;
-      height: 694px;
+      width: 47vw;
     }
 	}
 }
+
 // six frame
 .sixth-frame {
   margin-top: 100px;
   background: url("/img/sixth-frame/1.png") center/cover no-repeat;
   &__column {
     padding: 40px 0 516px 30px;
-    // width: 100vw;
     height: 1600px;
-    
   }
   &__title {
-    font-family: 'Roboto';
     text-transform: uppercase;
     @include font(49px, 54px, 1.08px, #FFF, 400);
   }
   &__text {
     margin-top: 15px;
-    font-family: 'Roboto';
     @include font(24px, 29px, none, #FFF, 400);
   }
   &__button {
@@ -537,7 +527,6 @@
     text-align: center;
     padding: 13px 21px;
     a {
-      font-family: 'Roboto';
       text-transform: uppercase;
       @include font_little(12px, 14px, 0.6px, #fff, 400);
     }
@@ -546,28 +535,97 @@
 
 // seven-frame
 .seventh-frame {
+	&__row {
+    @include flex(flex, row, space-between, center); 
+    padding: 40px 0; 
+    p {
+      text-transform: uppercase;
+      @include font_little(12px, 14px, 0.6px, #1A1818, 400);
+      margin: 0 -180px;
+    }
+  }
 }
 
 // eight-frame
 .eighth-frame {
+	&__row {
+    @include flex(flex, row, space-between, center);
+	}
+	&__left-column {
+    width: 47vw;
+    background: url(/img/eighth-frame/1.png) center/cover no-repeat ;
+    margin-left: 30px;
+    padding: 443px 117px 0 30px;
+	}
+	&__title {
+    @include font(53px, 54px, 1.08px, #fff, 400);
+	}
+	&__button {
+    background-color: #A05B4E;
+    padding: 12px 21px;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 190px;
+    text-align: center;
+    @include font_little(12px, 14px, 0.6px, #fff, 400);
+    text-transform: uppercase;
+    a {
+      color: #fff;
+    }
+	}
+	&__right-column {
+    width: 47vw;
+    background: url(/img/eighth-frame/2.png) center/cover no-repeat ;
+    margin-right: 30px;
+    padding: 482px 91px 0 30px;
+	}
 }
 
-// ninth frame
-.ninth-frame {
-}
-
-// tenth frame
-.tenth-frame {
-}
-
-// eleven frame
-.eleventh-frame {
-}
-
-// twelfth frame
-.twelfth-frame {
-}
-
-// footer
+// footer frame
 .footer {
+  margin-top: 100px;
+  background-color: #A05B4E;
+	&__column {
+    @include flex(flex, column, center, none);
+    text-align: center;
+	}
+	&__text {
+    @include font_little(11px, 18px, 0.6px, #f1f1de, 400);
+    text-transform: uppercase;
+    margin-top: 221px;
+	}
+	&__title {
+    margin-top: 50px;
+    @include font(24px, 29px, none, #f1f1de, 400);
+	}
+	&__button {
+    border-radius: 30px;
+    border: 1px solid #f1f1de;
+    width: 40vw;
+    margin: 30px auto 0 auto;
+    a {
+      color: #f1f1de;
+    }
+    padding: 15px 30px;
+    @include font(14px, 16px, 1.06px, #f1f1de, 400);
+    text-transform: uppercase;
+	}
+	&__line {
+    background-color: #f1f1de;
+    width: 95%;
+    height: 2px;
+    margin: 112px auto 40.5px auto;
+	}
+	&__row {
+    a {
+      color: #f1f1de;
+      margin-bottom: 40px;
+    }
+    @include flex(flex, none, space-between, center);
+    margin: 0 60px;
+    @include font_little(12px, 14px, 0.6px, #f1f1de, 400);
+    text-transform: uppercase;
+	}
 }
